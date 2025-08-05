@@ -53,15 +53,29 @@ function Player() {
     };
   }, []);
 
+  // function play() {
+  //   // setIsPlaying((prev) => !prev);
+  //   value5.setPlay(isPlaying);
+  //   if (!isPlaying) {
+  //     audio.current.pause();
+  //   } else {
+  //     audio.current.play();
+  //   }
+  //   setIsPlaying((prev) => !prev);
+  // }
   function play() {
-    setIsPlaying((prev) => !prev);
-    value5.setPlay(isPlaying);
-    if (!isPlaying) {
-      audio.current.pause();
-    } else {
-      audio.current.play();
-    }
+    setIsPlaying((prev) => {
+      const newIsPlaying = !prev;
+      value5.setPlay(newIsPlaying);
+      if (newIsPlaying) {
+        audio.current.play();
+      } else {
+        audio.current.pause();
+      }
+      return newIsPlaying;
+    });
   }
+  
   console.log(isPlaying);
   useEffect(() => {
     if (!value5.play) {
