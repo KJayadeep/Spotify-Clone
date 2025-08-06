@@ -22,7 +22,7 @@ function Player() {
   const [song, setSongs] = useState(songs);
   const [currentSong, setCurrentSong] = useState(song[index]);
   const [seekUp, setSeekup] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   const audio = useRef(new Audio(currentSong.file));
 
