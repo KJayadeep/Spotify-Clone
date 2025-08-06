@@ -226,7 +226,7 @@ function Player() {
           className="w-full h-1 bg-gray-600 rounded-lg appearance-none cursor-pointer 
           [&::-webkit-slider-runnable-track]:w-full [&::-webkit-slider-runnable-track]:h-1 
           [&::-webkit-slider-runnable-track]:bg-gray-600 [&::-webkit-slider-runnable-track]:rounded-lg
-          
+          [&::-webkit-slider-runnable-track]:cursor-pointer
           [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 
           [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:rounded-full 
           [&::-webkit-slider-thumb]:-mt-1 [&::-webkit-slider-thumb]:transition-all 
