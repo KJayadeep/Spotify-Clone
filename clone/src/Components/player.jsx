@@ -75,7 +75,7 @@ function Player() {
       return newIsPlaying;
     });
   }
-  
+
   console.log(isPlaying);
   useEffect(() => {
     if (!value5.play) {
