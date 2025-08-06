@@ -29,7 +29,7 @@ function Player() {
   useEffect(() => {
     audio.current.pause();
     audio.current.src = currentSong.file;
-    audio.current.play();
+    // audio.current.play();
     value.setImg(currentSong.img);
     value2.setTitle(currentSong.name);
     value3.setArtist(currentSong.artist);
@@ -69,6 +69,7 @@ function Player() {
       value5.setPlay(newIsPlaying);
       if (newIsPlaying) {
         audio.current.play();
+
       } else {
         audio.current.pause();
       }
