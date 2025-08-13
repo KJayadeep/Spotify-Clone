@@ -6,7 +6,7 @@ function songCard({ song,onClick,color}) {
       <p className="text-white font-bold w-[16px]">{song.id + 1}</p>
       <div className="flex gap-3 items-center m-5">
         <img src={song.img} alt="" className="h-[50px] rounded-md" />
-        <div className={`${color ? "bg-gray-700" : "hover:bg-gray-600"}`}>`>
+        <div className={`${color ? "bg-gray-700" : "hover:bg-gray-600"}`}>
           <h3 className="font-bold text-white">{song.name}</h3>
           <p className="text-white text-[10px]">{song.artist}</p>
         </div>
