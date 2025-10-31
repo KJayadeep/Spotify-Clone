@@ -9,13 +9,7 @@
 - [About The Project](#about-the-project)  
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [Roadmap](#roadmap)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+- [Getting Started](#getting-started)   
 
 ---
 
