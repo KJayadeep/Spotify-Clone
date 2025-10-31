@@ -25,7 +25,7 @@ Built as a clone of the popular music streaming service, this project is a moder
 ---
 
 ## ✅ Features  
-- Responsive design for desktop, tablet & mobile  
+- Responsive design for desktop  
 - Browse & play tracks (simulated playback)  
 - Search functionality for songs / artists  
 - Playlist creation & editing  
