@@ -1,6 +1,6 @@
 # 🎵 Spotify-Clone
 
-[Live Demo](https://spotify-clone-di4r.vercel.app/spotify-clone-di4r.vercel.app)  
+[Live Demo](spotify-clone-di4r.vercel.app/)  
 *A visually polished, fully responsive music streaming web app inspired by Spotify.*
 
 ---
